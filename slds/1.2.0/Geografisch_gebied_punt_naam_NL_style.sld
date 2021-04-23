@@ -1,6 +1,4 @@
-<!--SLD file created with GeoCat Bridge v2.0.0 using ArcGIS Desktop with 
-	Geoserver extensions. Date: 18 February 2016 See www.geocat.net for more 
-	details -->
+<?xml version="1.0" encoding="UTF-8"?>
 <StyledLayerDescriptor xmlns="http://www.opengis.net/sld"
 	xmlns:ogc="http://www.opengis.net/ogc" xmlns:xlink="http://www.w3.org/1999/xlink"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -20,7 +18,10 @@
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<!-- edit voor QGIS: Rule voorzien van PointSymbolizer -->
+<PointSymbolizer><Graphic><Mark><WellKnownName>circle</WellKnownName></Mark><Size>0</Size></Graphic></PointSymbolizer>
+<TextSymbolizer>
+
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>
 						</Label>
@@ -53,7 +54,10 @@
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<!-- edit voor QGIS: Rule voorzien van PointSymbolizer -->
+<PointSymbolizer><Graphic><Mark><WellKnownName>circle</WellKnownName></Mark><Size>0</Size></Graphic></PointSymbolizer>
+<TextSymbolizer>
+
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>
 						</Label>
@@ -92,7 +96,10 @@
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<!-- edit voor QGIS: Rule voorzien van PointSymbolizer -->
+<PointSymbolizer><Graphic><Mark><WellKnownName>circle</WellKnownName></Mark><Size>0</Size></Graphic></PointSymbolizer>
+<TextSymbolizer>
+
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>
 						</Label>
@@ -131,7 +138,10 @@
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<!-- edit voor QGIS: Rule voorzien van PointSymbolizer -->
+<PointSymbolizer><Graphic><Mark><WellKnownName>circle</WellKnownName></Mark><Size>0</Size></Graphic></PointSymbolizer>
+<TextSymbolizer>
+
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>
 						</Label>
@@ -165,7 +175,10 @@
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<!-- edit voor QGIS: Rule voorzien van PointSymbolizer -->
+<PointSymbolizer><Graphic><Mark><WellKnownName>circle</WellKnownName></Mark><Size>0</Size></Graphic></PointSymbolizer>
+<TextSymbolizer>
+
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>
 						</Label>
@@ -199,7 +212,10 @@
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<!-- edit voor QGIS: Rule voorzien van PointSymbolizer -->
+<PointSymbolizer><Graphic><Mark><WellKnownName>circle</WellKnownName></Mark><Size>0</Size></Graphic></PointSymbolizer>
+<TextSymbolizer>
+
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>
 						</Label>
@@ -232,7 +248,10 @@
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<!-- edit voor QGIS: Rule voorzien van PointSymbolizer -->
+<PointSymbolizer><Graphic><Mark><WellKnownName>circle</WellKnownName></Mark><Size>0</Size></Graphic></PointSymbolizer>
+<TextSymbolizer>
+
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>
 						</Label>
@@ -271,7 +290,10 @@
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<!-- edit voor QGIS: Rule voorzien van PointSymbolizer -->
+<PointSymbolizer><Graphic><Mark><WellKnownName>circle</WellKnownName></Mark><Size>0</Size></Graphic></PointSymbolizer>
+<TextSymbolizer>
+
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>
 						</Label>
@@ -305,7 +327,10 @@
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<!-- edit voor QGIS: Rule voorzien van PointSymbolizer -->
+<PointSymbolizer><Graphic><Mark><WellKnownName>circle</WellKnownName></Mark><Size>0</Size></Graphic></PointSymbolizer>
+<TextSymbolizer>
+
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>
 						</Label>
@@ -338,7 +363,10 @@
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<!-- edit voor QGIS: Rule voorzien van PointSymbolizer -->
+<PointSymbolizer><Graphic><Mark><WellKnownName>circle</WellKnownName></Mark><Size>0</Size></Graphic></PointSymbolizer>
+<TextSymbolizer>
+
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>
 						</Label>
@@ -372,7 +400,10 @@
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<!-- edit voor QGIS: Rule voorzien van PointSymbolizer -->
+<PointSymbolizer><Graphic><Mark><WellKnownName>circle</WellKnownName></Mark><Size>0</Size></Graphic></PointSymbolizer>
+<TextSymbolizer>
+
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>
 						</Label>
@@ -406,7 +437,10 @@
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<!-- edit voor QGIS: Rule voorzien van PointSymbolizer -->
+<PointSymbolizer><Graphic><Mark><WellKnownName>circle</WellKnownName></Mark><Size>0</Size></Graphic></PointSymbolizer>
+<TextSymbolizer>
+
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>
 						</Label>
@@ -440,7 +474,10 @@
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<!-- edit voor QGIS: Rule voorzien van PointSymbolizer -->
+<PointSymbolizer><Graphic><Mark><WellKnownName>circle</WellKnownName></Mark><Size>0</Size></Graphic></PointSymbolizer>
+<TextSymbolizer>
+
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>
 						</Label>
