@@ -2,3 +2,4 @@
 .~lock*
 data/*.gpkg
 data/*.gpkg*
+fonts/*
