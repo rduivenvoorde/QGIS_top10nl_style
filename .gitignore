@@ -1,0 +1,4 @@
+*.qgs~
+.~lock*
+data/*.gpkg
+data/*.gpkg*
