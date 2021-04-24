@@ -17,15 +17,14 @@
 					<Title>hoofdwegen</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:Function name="in">
 								<ogc:PropertyName>typeweg</ogc:PropertyName>
 								<ogc:Literal>hoofdweg</ogc:Literal>
-							</ogc:Function>
-							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>				
 					<MaxScaleDenominator>20000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<!-- edit voor QGIS: Rule voorzien van LineSymbolizer -->
+<LineSymbolizer><Stroke><CssParameter name="stroke-width">0</CssParameter></Stroke></LineSymbolizer>
+<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>naam</ogc:PropertyName>
 						</Label>
@@ -50,15 +49,14 @@
 					<Title>regionale wegen</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:Function name="in">
 								<ogc:PropertyName>typeweg</ogc:PropertyName>
 								<ogc:Literal>regionale weg</ogc:Literal>
-							</ogc:Function>
-							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>				
 					<MaxScaleDenominator>10000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<!-- edit voor QGIS: Rule voorzien van LineSymbolizer -->
+<LineSymbolizer><Stroke><CssParameter name="stroke-width">0</CssParameter></Stroke></LineSymbolizer>
+<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>naam</ogc:PropertyName>
 						</Label>
@@ -83,15 +81,14 @@
 					<Title>lokale wegen</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:Function name="in">
 								<ogc:PropertyName>typeweg</ogc:PropertyName>
 								<ogc:Literal>lokale weg</ogc:Literal>
-							</ogc:Function>
-							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>				
 					<MaxScaleDenominator>5000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<!-- edit voor QGIS: Rule voorzien van LineSymbolizer -->
+<LineSymbolizer><Stroke><CssParameter name="stroke-width">0</CssParameter></Stroke></LineSymbolizer>
+<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>naam</ogc:PropertyName>
 						</Label>
@@ -116,15 +113,14 @@
 					<Title>straten</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:Function name="in">
 								<ogc:PropertyName>typeweg</ogc:PropertyName>
 								<ogc:Literal>straat</ogc:Literal>
-							</ogc:Function>
-							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>				
 					<MaxScaleDenominator>3000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<!-- edit voor QGIS: Rule voorzien van LineSymbolizer -->
+<LineSymbolizer><Stroke><CssParameter name="stroke-width">0</CssParameter></Stroke></LineSymbolizer>
+<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>naam</ogc:PropertyName>
 						</Label>
@@ -149,15 +145,14 @@
 					<Title>overige_wegen</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:Function name="in">
 								<ogc:PropertyName>typeweg</ogc:PropertyName>
 								<ogc:Literal>overig</ogc:Literal>
-							</ogc:Function>
-							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>				
 					<MaxScaleDenominator>2000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<!-- edit voor QGIS: Rule voorzien van LineSymbolizer -->
+<LineSymbolizer><Stroke><CssParameter name="stroke-width">0</CssParameter></Stroke></LineSymbolizer>
+<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>naam</ogc:PropertyName>
 						</Label>
