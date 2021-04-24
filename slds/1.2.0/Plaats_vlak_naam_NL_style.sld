@@ -22,7 +22,12 @@
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<!-- edit voor QGIS: Rule voorzien van PolygonSymbolizer -->
+<PolygonSymbolizer>
+<Fill><CssParameter name="fill">#FFFFFF</CssParameter><CssParameter name="fill-opacity">0</CssParameter></Fill>
+<Stroke><CssParameter name="stroke">#FFFFFF</CssParameter><CssParameter name="stroke-width">0</CssParameter></Stroke>
+</PolygonSymbolizer>
+<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>
 						</Label>
@@ -60,7 +65,12 @@
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<!-- edit voor QGIS: Rule voorzien van PolygonSymbolizer -->
+<PolygonSymbolizer>
+<Fill><CssParameter name="fill">#FFFFFF</CssParameter><CssParameter name="fill-opacity">0</CssParameter></Fill>
+<Stroke><CssParameter name="stroke">#FFFFFF</CssParameter><CssParameter name="stroke-width">0</CssParameter></Stroke>
+</PolygonSymbolizer>
+<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>
 						</Label>
@@ -98,7 +108,12 @@
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<!-- edit voor QGIS: Rule voorzien van PolygonSymbolizer -->
+<PolygonSymbolizer>
+<Fill><CssParameter name="fill">#FFFFFF</CssParameter><CssParameter name="fill-opacity">0</CssParameter></Fill>
+<Stroke><CssParameter name="stroke">#FFFFFF</CssParameter><CssParameter name="stroke-width">0</CssParameter></Stroke>
+</PolygonSymbolizer>
+<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>
 						</Label>
@@ -136,7 +151,12 @@
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<!-- edit voor QGIS: Rule voorzien van PolygonSymbolizer -->
+<PolygonSymbolizer>
+<Fill><CssParameter name="fill">#FFFFFF</CssParameter><CssParameter name="fill-opacity">0</CssParameter></Fill>
+<Stroke><CssParameter name="stroke">#FFFFFF</CssParameter><CssParameter name="stroke-width">0</CssParameter></Stroke>
+</PolygonSymbolizer>
+<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>
 						</Label>
@@ -174,7 +194,12 @@
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<!-- edit voor QGIS: Rule voorzien van PolygonSymbolizer -->
+<PolygonSymbolizer>
+<Fill><CssParameter name="fill">#FFFFFF</CssParameter><CssParameter name="fill-opacity">0</CssParameter></Fill>
+<Stroke><CssParameter name="stroke">#FFFFFF</CssParameter><CssParameter name="stroke-width">0</CssParameter></Stroke>
+</PolygonSymbolizer>
+<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>
 						</Label>
@@ -205,7 +230,12 @@
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<!-- edit voor QGIS: Rule voorzien van PolygonSymbolizer -->
+<PolygonSymbolizer>
+<Fill><CssParameter name="fill">#FFFFFF</CssParameter><CssParameter name="fill-opacity">0</CssParameter></Fill>
+<Stroke><CssParameter name="stroke">#FFFFFF</CssParameter><CssParameter name="stroke-width">0</CssParameter></Stroke>
+</PolygonSymbolizer>
+<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>
 						</Label>
@@ -242,7 +272,12 @@
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<!-- edit voor QGIS: Rule voorzien van PolygonSymbolizer -->
+<PolygonSymbolizer>
+<Fill><CssParameter name="fill">#FFFFFF</CssParameter><CssParameter name="fill-opacity">0</CssParameter></Fill>
+<Stroke><CssParameter name="stroke">#FFFFFF</CssParameter><CssParameter name="stroke-width">0</CssParameter></Stroke>
+</PolygonSymbolizer>
+<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>
 						</Label>
@@ -280,7 +315,12 @@
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<!-- edit voor QGIS: Rule voorzien van PolygonSymbolizer -->
+<PolygonSymbolizer>
+<Fill><CssParameter name="fill">#FFFFFF</CssParameter><CssParameter name="fill-opacity">0</CssParameter></Fill>
+<Stroke><CssParameter name="stroke">#FFFFFF</CssParameter><CssParameter name="stroke-width">0</CssParameter></Stroke>
+</PolygonSymbolizer>
+<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>naamnl</ogc:PropertyName>
 						</Label>
