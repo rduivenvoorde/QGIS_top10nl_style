@@ -14,7 +14,8 @@
 			<FeatureTypeStyle>
 				<Rule>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<LineSymbolizer><Stroke><CssParameter name="stroke-width">0</CssParameter></Stroke></LineSymbolizer>
+<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>aantalrijstroken</ogc:PropertyName>
 						</Label>
@@ -55,7 +56,8 @@
 				</Rule>
 				<Rule>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<LineSymbolizer><Stroke><CssParameter name="stroke-width">0</CssParameter></Stroke></LineSymbolizer>
+<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>aantalrijstroken</ogc:PropertyName>
 						</Label>
@@ -96,7 +98,8 @@
 				</Rule>
 				<Rule>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<LineSymbolizer><Stroke><CssParameter name="stroke-width">0</CssParameter></Stroke></LineSymbolizer>
+<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>awegnummer</ogc:PropertyName>
 						</Label>
@@ -137,7 +140,8 @@
 				</Rule>
 				<Rule>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<LineSymbolizer><Stroke><CssParameter name="stroke-width">0</CssParameter></Stroke></LineSymbolizer>
+<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>nwegnummer</ogc:PropertyName>
 						</Label>
@@ -178,7 +182,8 @@
 				</Rule>
 				<Rule>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<LineSymbolizer><Stroke><CssParameter name="stroke-width">0</CssParameter></Stroke></LineSymbolizer>
+<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>ewegnummer</ogc:PropertyName>
 						</Label>
@@ -219,7 +224,8 @@
 				</Rule>
 				<Rule>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<LineSymbolizer><Stroke><CssParameter name="stroke-width">0</CssParameter></Stroke></LineSymbolizer>
+<TextSymbolizer>
 						<Label>
 							<ogc:PropertyName>knooppuntnaam</ogc:PropertyName>
 						</Label>
