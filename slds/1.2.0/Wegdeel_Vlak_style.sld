@@ -15,7 +15,7 @@
 				<Rule>
 					<Name>autosnelweg</Name>
 					<Title>autosnelweg</Title>
-					<ogc:Filter>
+					<!--<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
 								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
@@ -25,7 +25,24 @@
 							</ogc:Function>
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
+                    </ogc:Filter>-->
+                    <!-- QGIS fix -->
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:Or>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10202</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10200</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10201</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                        </ogc:Or>
+                    </ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
@@ -36,7 +53,7 @@
 				<Rule>
 					<Name>fietspad</Name>
 					<Title>fietspad</Title>
-					<ogc:Filter>
+					<!--<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
 								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
@@ -46,7 +63,24 @@
 							</ogc:Function>
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
+                    </ogc:Filter>-->
+                    <!-- QGIS fix -->
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:Or>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10742</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10740</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10741</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                        </ogc:Or>
+                    </ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
@@ -57,7 +91,7 @@
 				<Rule>
 					<Name>half verharde weg</Name>
 					<Title>half verharde weg</Title>
-					<ogc:Filter>
+					<!--<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
 								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
@@ -66,7 +100,20 @@
 							</ogc:Function>
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
+                    </ogc:Filter>-->
+                    <!-- QGIS fix -->
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:Or>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10721</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10720</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                        </ogc:Or>
+                    </ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
@@ -77,7 +124,7 @@
 				<Rule>
 					<Name>hoofdweg</Name>
 					<Title>hoofdweg</Title>
-					<ogc:Filter>
+					<!--<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
 								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
@@ -90,7 +137,36 @@
 							</ogc:Function>
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
+                    </ogc:Filter>-->
+                    <!-- QGIS fix -->
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:Or>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10302</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10300</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10401</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10310</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10311</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10312</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                        </ogc:Or>
+                    </ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
@@ -101,7 +177,7 @@
 				<Rule>
 					<Name>lokale weg</Name>
 					<Title>lokale weg</Title>
-					<ogc:Filter>
+					<!--<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
 								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
@@ -114,7 +190,36 @@
 							</ogc:Function>
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
+                    </ogc:Filter>-->
+                    <!-- QGIS fix -->
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:Or>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10502</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10500</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10501</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10510</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10511</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10512</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>                          
+                        </ogc:Or>
+                    </ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
@@ -125,7 +230,7 @@
 				<Rule>
 					<Name>onverharde weg</Name>
 					<Title>onverharde weg</Title>
-					<ogc:Filter>
+					<!--<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
 								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
@@ -135,7 +240,24 @@
 							</ogc:Function>
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
+                    </ogc:Filter>-->
+                    <!-- QGIS fix -->
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:Or>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10732</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10730</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10731</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                        </ogc:Or>
+                    </ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
@@ -146,7 +268,7 @@
 				<Rule>
 					<Name>overige weg</Name>
 					<Title>overige weg</Title>
-					<ogc:Filter>
+					<!--<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
 								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
@@ -162,7 +284,48 @@
 							</ogc:Function>
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
+                    </ogc:Filter>-->
+                    <!-- QGIS fix -->
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:Or>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10790</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10700</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10701</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10702</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10710</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10711</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>                                                  
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10712</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10791</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10792</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                        </ogc:Or>
+                    </ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
@@ -173,7 +336,7 @@
 				<Rule>
 					<Name>parkeerplaats</Name>
 					<Title>parkeerplaats</Title>
-					<ogc:Filter>
+					<!--<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
 								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
@@ -182,7 +345,20 @@
 							</ogc:Function>
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
+                    </ogc:Filter>-->
+                    <!-- QGIS fix -->
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:Or>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10781</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10780</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                        </ogc:Or>
+                    </ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
@@ -197,7 +373,7 @@
 				<Rule>
 					<Name>regionale weg</Name>
 					<Title>regionale weg</Title>
-					<ogc:Filter>
+					<!--<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
 								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
@@ -210,7 +386,36 @@
 							</ogc:Function>
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
+                    </ogc:Filter>-->
+                    <!-- QGIS fix -->
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:Or>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10402</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10400</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10301</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10410</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10411</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10412</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                        </ogc:Or>
+                    </ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
@@ -221,7 +426,7 @@
 				<Rule>
 					<Name>rolbaan, platform</Name>
 					<Title>rolbaan, platform</Title>
-					<ogc:Filter>
+					<!--<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
 								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
@@ -231,7 +436,24 @@
 							</ogc:Function>
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
+                    </ogc:Filter>-->
+                    <!-- QGIS fix -->
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:Or>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10102</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10100</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10101</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                        </ogc:Or>
+                    </ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
@@ -242,7 +464,7 @@
 				<Rule>
 					<Name>startbaan, landingsbaan</Name>
 					<Title>startbaan, landingsbaan</Title>
-					<ogc:Filter>
+					<!--<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
 								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
@@ -251,7 +473,20 @@
 							</ogc:Function>
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
+                    </ogc:Filter>-->
+                    <!-- QGIS fix -->
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:Or>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10002</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10000</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                        </ogc:Or>
+                    </ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
@@ -262,7 +497,7 @@
 				<Rule>
 					<Name>straat</Name>
 					<Title>straat</Title>
-					<ogc:Filter>
+					<!--<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
 								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
@@ -272,7 +507,24 @@
 							</ogc:Function>
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
+                    </ogc:Filter>-->
+                    <!-- QGIS fix -->
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:Or>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10602</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10601</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10600</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                        </ogc:Or>
+                    </ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
@@ -283,7 +535,7 @@
 				<Rule>
 					<Name>voetgangersgebied</Name>
 					<Title>voetgangersgebied</Title>
-					<ogc:Filter>
+					<!--<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
 								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
@@ -296,7 +548,36 @@
 							</ogc:Function>
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
+                    </ogc:Filter>-->
+                    <!-- QGIS fix -->
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:Or>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10760</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10750</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10751</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>                        
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10752</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10761</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>10762</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                        </ogc:Or>
+                    </ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
