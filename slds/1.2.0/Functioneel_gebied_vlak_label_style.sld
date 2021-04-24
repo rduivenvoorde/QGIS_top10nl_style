@@ -22,7 +22,12 @@
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<!-- edit voor QGIS: Rule voorzien van PolygonSymbolizer -->
+<PolygonSymbolizer>
+<Fill><CssParameter name="fill">#FFFFFF</CssParameter><CssParameter name="fill-opacity">0</CssParameter></Fill>
+<Stroke><CssParameter name="stroke">#FFFFFF</CssParameter><CssParameter name="stroke-width">0</CssParameter></Stroke>
+</PolygonSymbolizer>
+<TextSymbolizer>
 						<Label><![CDATA[&]]></Label>
 						<Font>
 							<CssParameter name="font-family">ESRI ArcGIS TDN</CssParameter>
@@ -71,7 +76,12 @@
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<MaxScaleDenominator>26000</MaxScaleDenominator>
-					<TextSymbolizer>
+					<!-- edit voor QGIS: Rule voorzien van PolygonSymbolizer -->
+<PolygonSymbolizer>
+<Fill><CssParameter name="fill">#FFFFFF</CssParameter><CssParameter name="fill-opacity">0</CssParameter></Fill>
+<Stroke><CssParameter name="stroke">#FFFFFF</CssParameter><CssParameter name="stroke-width">0</CssParameter></Stroke>
+</PolygonSymbolizer>
+<TextSymbolizer>
 						<Label><![CDATA[F]]></Label>
 						<Font>
 							<CssParameter name="font-family">ESRI ArcGIS TDN</CssParameter>
