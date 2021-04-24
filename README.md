@@ -4,7 +4,11 @@ Dit is een top10nl v2 like style project voor QGIS
 
 Ziet er (NADAT je de geopackages in de data dir hebt gezet, EN de juiste fonts hebt geladen) ongeveer zo uit (1:10000 in QGIS):
 
-TODO
+![Screenshot-20210424153833-1080x1175](https://user-images.githubusercontent.com/731673/115961228-c866ab00-a515-11eb-9309-7cf0f9606e9e.png)
+
+Op die plek ziet de top10nlv2 als WMS er zo uit:
+
+![Screenshot-20210424153854-1077x1175](https://user-images.githubusercontent.com/731673/115961207-abca7300-a515-11eb-947a-373c18cae51e.png)
 
 Ik heb zoveel mogelijk geprobeerd gebruik te maken van de officiele SLD's die staan op: https://register.geostandaarden.nl/visualisatie/top10nl/1.2.0/
 
