@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="3.19.0-Master" saveDateTime="2021-04-24T21:24:55" saveUser="richard" saveUserFull="richard">
+<qgis projectname="" version="3.19.0-Master" saveDateTime="2021-04-25T10:54:59" saveUser="richard" saveUserFull="richard">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -110,6 +110,9 @@
     <layer-tree-layer checked="Qt::Checked" legend_exp="" id="top10nlv2____9d55c818_aebe_4fe1_949c_7c3ffe0421aa" source="crs=EPSG:28992&amp;layers=top10nlv2&amp;styles=&amp;format=image/png&amp;url=https://geodata.nationaalgeoregister.nl/top10nlv2/ows" providerKey="wms" expanded="0" patch_size="-1,-1" name="top10nlv2 PDOK WMS" legend_split_behavior="0">
       <customproperties/>
     </layer-tree-layer>
+    <layer-tree-layer checked="Qt::Unchecked" legend_exp="" id="landsgrens_6e676f1f_987c_410d_9658_bfc0d3788ac7" source=" pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:28992' typename='bestuurlijkegrenzen:landsgrens' url='https://geodata.nationaalgeoregister.nl/bestuurlijkegrenzen/wfs' version='2.0.0' " providerKey="WFS" expanded="1" patch_size="-1,-1" name="landsgrens (vlakdekking check)" legend_split_behavior="0">
+      <customproperties/>
+    </layer-tree-layer>
     <custom-order enabled="0">
       <item>top10nl_geografisch_gebied_vlak_d1868b95_9707_426a_95c1_029f22cc2ca2</item>
       <item>top10nl_geografisch_gebied_multivlak_7fb7d344_c8be_4cc9_8666_16b37d88ea05</item>
@@ -140,35 +143,37 @@
       <item>top10nl_functioneel_gebied_vlak_1d773ed0_8710_433a_8cc6_9e342fae3035</item>
       <item>top10nl_terrein_vlak_34e3f1fa_8c68_49b5_871b_7413cc59fc51</item>
       <item>top10nlv2_0e2ecfc6_689b_4cd4_809e_1ec6e266a553</item>
+      <item>landsgrens_6e676f1f_987c_410d_9658_bfc0d3788ac7</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings mode="2" tolerance="12" type="1" maxScale="0" enabled="0" unit="1" scaleDependencyMode="0" minScale="0" intersection-snapping="0" self-snapping="0">
     <individual-layer-settings>
       <layer-setting tolerance="12" id="top10nl_wegdeel_lijn_aa0a790b_eee8_41dd_8410_dfd758d17a73" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
-      <layer-setting tolerance="12" id="top10nl_hoogte_punt_a6c2b9c7_368d_48a3_83ba_3addbaa65b8d" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
-      <layer-setting tolerance="12" id="top10nl_relief_talud_hoge_zijde_lijn_e59b6240_85e1_4fde_9503_e2c818b4c0be" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
-      <layer-setting tolerance="12" id="top10nl_hoogte_lijn_d36aa907_b078_480b_a1a8_8cc36cd8c2fb" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
-      <layer-setting tolerance="12" id="top10nl_geografisch_gebied_vlak_d1868b95_9707_426a_95c1_029f22cc2ca2" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
-      <layer-setting tolerance="12" id="top10nl_relief_lijn_1b6ecc71_9fae_4258_8649_e107ec34f532" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
       <layer-setting tolerance="12" id="top10nl_terrein_vlak_34e3f1fa_8c68_49b5_871b_7413cc59fc51" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
-      <layer-setting tolerance="12" id="top10nl_wegdeel_hartlijn_ece7c545_28ab_43c0_a122_65fc438b7ba0" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
-      <layer-setting tolerance="12" id="top10nl_spoorbaandeel_lijn_cac30160_7825_46ab_9ae8_1938fc46b656" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
-      <layer-setting tolerance="12" id="top10nl_waterdeel_vlak_f1f7d524_de7b_452c_9055_309f26537d09" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
-      <layer-setting tolerance="12" id="top10nl_wegdeel_vlak_777f836b_6e1e_4005_862e_cea17f46c911" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
-      <layer-setting tolerance="12" id="top10nl_functioneel_gebied_vlak_1d773ed0_8710_433a_8cc6_9e342fae3035" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
       <layer-setting tolerance="12" id="top10nl_waterdeel_lijn_0e01b00b_f175_4d88_b40d_95c19e24b356" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
-      <layer-setting tolerance="12" id="top10nl_geografisch_gebied_punt_574bac17_97a2_456d_bd42_593a5e977cd3" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
-      <layer-setting tolerance="12" id="top10nl_inrichtingselement_lijn_899afd5e_5cc2_44a3_91fa_dab88acf03b9" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
-      <layer-setting tolerance="12" id="top10nl_plaats_vlak_f5f66ffd_7944_40f9_b9f5_310b0f30af19" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
-      <layer-setting tolerance="12" id="top10nl_wegdeel_hartlijn_57c56792_a93b_40f2_b3f5_fa8e73cdad53" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
       <layer-setting tolerance="12" id="top10nl_waterdeel_vlak_0e445205_ae23_47d1_a69c_2acf7059c631" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
-      <layer-setting tolerance="12" id="top10nl_terrein_vlak_85251531_9281_4d06_a6a0_b2e83055a5d6" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
+      <layer-setting tolerance="12" id="top10nl_spoorbaandeel_lijn_cac30160_7825_46ab_9ae8_1938fc46b656" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
+      <layer-setting tolerance="12" id="top10nl_inrichtingselement_lijn_899afd5e_5cc2_44a3_91fa_dab88acf03b9" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
+      <layer-setting tolerance="12" id="top10nl_hoogte_lijn_d36aa907_b078_480b_a1a8_8cc36cd8c2fb" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
+      <layer-setting tolerance="12" id="top10nl_relief_talud_hoge_zijde_lijn_e59b6240_85e1_4fde_9503_e2c818b4c0be" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
+      <layer-setting tolerance="12" id="top10nl_geografisch_gebied_vlak_d1868b95_9707_426a_95c1_029f22cc2ca2" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
+      <layer-setting tolerance="12" id="top10nl_functioneel_gebied_vlak_1d773ed0_8710_433a_8cc6_9e342fae3035" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
+      <layer-setting tolerance="12" id="top10nl_plaats_vlak_f5f66ffd_7944_40f9_b9f5_310b0f30af19" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
+      <layer-setting tolerance="12" id="top10nl_gebouw_punt_ac9df7fc_f9cc_4508_a2d1_73e205946232" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
+      <layer-setting tolerance="12" id="top10nl_geografisch_gebied_punt_574bac17_97a2_456d_bd42_593a5e977cd3" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
+      <layer-setting tolerance="12" id="top10nl_wegdeel_vlak_777f836b_6e1e_4005_862e_cea17f46c911" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
+      <layer-setting tolerance="12" id="top10nl_relief_lijn_1b6ecc71_9fae_4258_8649_e107ec34f532" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
+      <layer-setting tolerance="12" id="landsgrens_6e676f1f_987c_410d_9658_bfc0d3788ac7" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
       <layer-setting tolerance="12" id="top10nl_hoogte_lijn_98c9e209_8d58_42f0_b1e0_98ff62c8adbb" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
+      <layer-setting tolerance="12" id="top10nl_geografisch_gebied_multivlak_7fb7d344_c8be_4cc9_8666_16b37d88ea05" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
+      <layer-setting tolerance="12" id="top10nl_wegdeel_hartlijn_ece7c545_28ab_43c0_a122_65fc438b7ba0" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
+      <layer-setting tolerance="12" id="top10nl_waterdeel_vlak_f1f7d524_de7b_452c_9055_309f26537d09" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
       <layer-setting tolerance="12" id="top10nl_gebouw_vlak_27f9532a_e5f2_476b_9f88_8d92b57cd4e7" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
       <layer-setting tolerance="12" id="top10nl_inrichtingselement_punt_5701a82b_dfd5_4f61_986e_ad324bd3e1ff" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
-      <layer-setting tolerance="12" id="top10nl_gebouw_punt_ac9df7fc_f9cc_4508_a2d1_73e205946232" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
-      <layer-setting tolerance="12" id="top10nl_geografisch_gebied_multivlak_7fb7d344_c8be_4cc9_8666_16b37d88ea05" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
       <layer-setting tolerance="12" id="top10nl_plaats_vlak_993458ac_7ce9_4ad1_9661_a19c26694d63" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
+      <layer-setting tolerance="12" id="top10nl_hoogte_punt_a6c2b9c7_368d_48a3_83ba_3addbaa65b8d" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
+      <layer-setting tolerance="12" id="top10nl_terrein_vlak_85251531_9281_4d06_a6a0_b2e83055a5d6" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
+      <layer-setting tolerance="12" id="top10nl_wegdeel_hartlijn_57c56792_a93b_40f2_b3f5_fa8e73cdad53" type="1" maxScale="0" enabled="0" units="1" minScale="0"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
@@ -176,10 +181,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>113206.47186016554769594</xmin>
-      <ymin>483641.32535680179717019</ymin>
-      <xmax>115246.40936224629695062</xmax>
-      <ymax>485776.51285897969501093</ymax>
+      <xmin>98982.9073939441004768</xmin>
+      <ymin>498017.79409513779683039</ymin>
+      <xmax>99677.57576496514957398</xmax>
+      <ymax>498695.66274739167420194</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -347,6 +352,11 @@
         <legendlayerfile layerid="top10nlv2____9d55c818_aebe_4fe1_949c_7c3ffe0421aa" visible="1" isInOverview="0"/>
       </filegroup>
     </legendlayer>
+    <legendlayer checked="Qt::Unchecked" drawingOrder="-1" showFeatureCount="0" open="true" name="landsgrens (vlakdekking check)">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="landsgrens_6e676f1f_987c_410d_9658_bfc0d3788ac7" visible="0" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
   </legend>
   <mapViewDocks/>
   <mapViewDocks3D/>
@@ -367,7 +377,7 @@
         <description></description>
         <projectionacronym></projectionacronym>
         <ellipsoidacronym></ellipsoidacronym>
-        <geographicflag>false</geographicflag>
+        <geographicflag>true</geographicflag>
       </spatialrefsys>
     </srs>
     <resourceMetadata>
@@ -390,7 +400,7 @@
           <description></description>
           <projectionacronym></projectionacronym>
           <ellipsoidacronym></ellipsoidacronym>
-          <geographicflag>false</geographicflag>
+          <geographicflag>true</geographicflag>
         </spatialrefsys>
       </crs>
       <extent/>
@@ -452,7 +462,7 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -500,6 +510,497 @@
         <resamplingStage>resamplingFilter</resamplingStage>
       </pipe>
       <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer maxScale="0" wkbType="MultiPolygon" refreshOnNotifyMessage="" autoRefreshEnabled="0" autoRefreshTime="0" readOnly="0" refreshOnNotifyEnabled="0" labelsEnabled="0" simplifyAlgorithm="0" geometry="Polygon" simplifyMaxScale="1" simplifyDrawingTol="1" styleCategories="AllStyleCategories" simplifyDrawingHints="1" simplifyLocal="1" type="vector" hasScaleBasedVisibilityFlag="0" minScale="100000000">
+      <extent>
+        <xmin>1032.05909363989485428</xmin>
+        <ymin>304847.26715367077849805</ymin>
+        <xmax>286175.81791472260374576</xmax>
+        <ymax>624077.50104181130882353</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>3.06245043881870238</xmin>
+        <ymin>50.71301937622959599</ymin>
+        <xmax>7.36804633326431979</xmax>
+        <ymax>53.60266011577549961</ymax>
+      </wgs84extent>
+      <id>landsgrens_6e676f1f_987c_410d_9658_bfc0d3788ac7</id>
+      <datasource> pagingEnabled='true' restrictToRequestBBOX='1' srsname='EPSG:28992' typename='bestuurlijkegrenzen:landsgrens' url='https://geodata.nationaalgeoregister.nl/bestuurlijkegrenzen/wfs' version='2.0.0' </datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>landsgrens (vlakdekking check)</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["Amersfoort / RD New",BASEGEOGCRS["Amersfoort",DATUM["Amersfoort",ELLIPSOID["Bessel 1841",6377397.155,299.1528128,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4289]],CONVERSION["RD New",METHOD["Oblique Stereographic",ID["EPSG",9809]],PARAMETER["Latitude of natural origin",52.1561605555556,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",5.38763888888889,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9999079,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",155000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",463000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["Netherlands - onshore, including Waddenzee, Dutch Wadden Islands and 12-mile offshore coastal zone."],BBOX[50.75,3.2,53.7,7.22]],ID["EPSG",28992]]</wkt>
+          <proj4>+proj=sterea +lat_0=52.1561605555556 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>
+          <srsid>2517</srsid>
+          <srid>28992</srid>
+          <authid>EPSG:28992</authid>
+          <description>Amersfoort / RD New</description>
+          <projectionacronym>sterea</projectionacronym>
+          <ellipsoidacronym>EPSG:7004</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" miny="0" maxx="0" minz="0" minx="0" maxy="0" dimensions="2" maxz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="">wfs</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal mode="0" startExpression="" endField="" durationUnit="min" fixedDuration="0" enabled="0" accumulate="0" endExpression="" startField="" durationField="">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 symbollevels="0" forceraster="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol type="fill" alpha="1" force_rhr="0" name="0" clip_to_extent="1">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+            <layer pass="0" class="SimpleFill" locked="0" enabled="1">
+              <Option type="Map">
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
+                <Option type="QString" value="228,26,28,255" name="color"/>
+                <Option type="QString" value="bevel" name="joinstyle"/>
+                <Option type="QString" value="0,0" name="offset"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_unit"/>
+                <Option type="QString" value="128,14,16,255" name="outline_color"/>
+                <Option type="QString" value="solid" name="outline_style"/>
+                <Option type="QString" value="0.26" name="outline_width"/>
+                <Option type="QString" value="MM" name="outline_width_unit"/>
+                <Option type="QString" value="solid" name="style"/>
+              </Option>
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="228,26,28,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="128,14,16,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <effect type="effectStack" enabled="0">
+                <effect type="dropShadow">
+                  <Option type="Map">
+                    <Option type="QString" value="13" name="blend_mode"/>
+                    <Option type="QString" value="2.645" name="blur_level"/>
+                    <Option type="QString" value="MM" name="blur_unit"/>
+                    <Option type="QString" value="3x:0,0,0,0,0,0" name="blur_unit_scale"/>
+                    <Option type="QString" value="0,0,0,255" name="color"/>
+                    <Option type="QString" value="2" name="draw_mode"/>
+                    <Option type="QString" value="0" name="enabled"/>
+                    <Option type="QString" value="135" name="offset_angle"/>
+                    <Option type="QString" value="2" name="offset_distance"/>
+                    <Option type="QString" value="MM" name="offset_unit"/>
+                    <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_unit_scale"/>
+                    <Option type="QString" value="1" name="opacity"/>
+                  </Option>
+                  <prop v="13" k="blend_mode"/>
+                  <prop v="2.645" k="blur_level"/>
+                  <prop v="MM" k="blur_unit"/>
+                  <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                  <prop v="0,0,0,255" k="color"/>
+                  <prop v="2" k="draw_mode"/>
+                  <prop v="0" k="enabled"/>
+                  <prop v="135" k="offset_angle"/>
+                  <prop v="2" k="offset_distance"/>
+                  <prop v="MM" k="offset_unit"/>
+                  <prop v="3x:0,0,0,0,0,0" k="offset_unit_scale"/>
+                  <prop v="1" k="opacity"/>
+                </effect>
+                <effect type="outerGlow">
+                  <Option type="Map">
+                    <Option type="QString" value="0" name="blend_mode"/>
+                    <Option type="QString" value="0.7935" name="blur_level"/>
+                    <Option type="QString" value="MM" name="blur_unit"/>
+                    <Option type="QString" value="3x:0,0,0,0,0,0" name="blur_unit_scale"/>
+                    <Option type="QString" value="0,0,255,255" name="color1"/>
+                    <Option type="QString" value="0,255,0,255" name="color2"/>
+                    <Option type="QString" value="0" name="color_type"/>
+                    <Option type="QString" value="0" name="discrete"/>
+                    <Option type="QString" value="2" name="draw_mode"/>
+                    <Option type="QString" value="0" name="enabled"/>
+                    <Option type="QString" value="0.5" name="opacity"/>
+                    <Option type="QString" value="gradient" name="rampType"/>
+                    <Option type="QString" value="255,255,255,255" name="single_color"/>
+                    <Option type="QString" value="2" name="spread"/>
+                    <Option type="QString" value="MM" name="spread_unit"/>
+                    <Option type="QString" value="3x:0,0,0,0,0,0" name="spread_unit_scale"/>
+                  </Option>
+                  <prop v="0" k="blend_mode"/>
+                  <prop v="0.7935" k="blur_level"/>
+                  <prop v="MM" k="blur_unit"/>
+                  <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                  <prop v="0,0,255,255" k="color1"/>
+                  <prop v="0,255,0,255" k="color2"/>
+                  <prop v="0" k="color_type"/>
+                  <prop v="0" k="discrete"/>
+                  <prop v="2" k="draw_mode"/>
+                  <prop v="0" k="enabled"/>
+                  <prop v="0.5" k="opacity"/>
+                  <prop v="gradient" k="rampType"/>
+                  <prop v="255,255,255,255" k="single_color"/>
+                  <prop v="2" k="spread"/>
+                  <prop v="MM" k="spread_unit"/>
+                  <prop v="3x:0,0,0,0,0,0" k="spread_unit_scale"/>
+                </effect>
+                <effect type="blur">
+                  <Option type="Map">
+                    <Option type="QString" value="0" name="blend_mode"/>
+                    <Option type="QString" value="2.645" name="blur_level"/>
+                    <Option type="QString" value="0" name="blur_method"/>
+                    <Option type="QString" value="MM" name="blur_unit"/>
+                    <Option type="QString" value="3x:0,0,0,0,0,0" name="blur_unit_scale"/>
+                    <Option type="QString" value="2" name="draw_mode"/>
+                    <Option type="QString" value="1" name="enabled"/>
+                    <Option type="QString" value="1" name="opacity"/>
+                  </Option>
+                  <prop v="0" k="blend_mode"/>
+                  <prop v="2.645" k="blur_level"/>
+                  <prop v="0" k="blur_method"/>
+                  <prop v="MM" k="blur_unit"/>
+                  <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                  <prop v="2" k="draw_mode"/>
+                  <prop v="1" k="enabled"/>
+                  <prop v="1" k="opacity"/>
+                </effect>
+                <effect type="innerShadow">
+                  <Option type="Map">
+                    <Option type="QString" value="13" name="blend_mode"/>
+                    <Option type="QString" value="2.645" name="blur_level"/>
+                    <Option type="QString" value="MM" name="blur_unit"/>
+                    <Option type="QString" value="3x:0,0,0,0,0,0" name="blur_unit_scale"/>
+                    <Option type="QString" value="0,0,0,255" name="color"/>
+                    <Option type="QString" value="2" name="draw_mode"/>
+                    <Option type="QString" value="0" name="enabled"/>
+                    <Option type="QString" value="135" name="offset_angle"/>
+                    <Option type="QString" value="2" name="offset_distance"/>
+                    <Option type="QString" value="MM" name="offset_unit"/>
+                    <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_unit_scale"/>
+                    <Option type="QString" value="1" name="opacity"/>
+                  </Option>
+                  <prop v="13" k="blend_mode"/>
+                  <prop v="2.645" k="blur_level"/>
+                  <prop v="MM" k="blur_unit"/>
+                  <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                  <prop v="0,0,0,255" k="color"/>
+                  <prop v="2" k="draw_mode"/>
+                  <prop v="0" k="enabled"/>
+                  <prop v="135" k="offset_angle"/>
+                  <prop v="2" k="offset_distance"/>
+                  <prop v="MM" k="offset_unit"/>
+                  <prop v="3x:0,0,0,0,0,0" k="offset_unit_scale"/>
+                  <prop v="1" k="opacity"/>
+                </effect>
+                <effect type="innerGlow">
+                  <Option type="Map">
+                    <Option type="QString" value="0" name="blend_mode"/>
+                    <Option type="QString" value="0.7935" name="blur_level"/>
+                    <Option type="QString" value="MM" name="blur_unit"/>
+                    <Option type="QString" value="3x:0,0,0,0,0,0" name="blur_unit_scale"/>
+                    <Option type="QString" value="0,0,255,255" name="color1"/>
+                    <Option type="QString" value="0,255,0,255" name="color2"/>
+                    <Option type="QString" value="0" name="color_type"/>
+                    <Option type="QString" value="0" name="discrete"/>
+                    <Option type="QString" value="2" name="draw_mode"/>
+                    <Option type="QString" value="0" name="enabled"/>
+                    <Option type="QString" value="0.5" name="opacity"/>
+                    <Option type="QString" value="gradient" name="rampType"/>
+                    <Option type="QString" value="255,255,255,255" name="single_color"/>
+                    <Option type="QString" value="2" name="spread"/>
+                    <Option type="QString" value="MM" name="spread_unit"/>
+                    <Option type="QString" value="3x:0,0,0,0,0,0" name="spread_unit_scale"/>
+                  </Option>
+                  <prop v="0" k="blend_mode"/>
+                  <prop v="0.7935" k="blur_level"/>
+                  <prop v="MM" k="blur_unit"/>
+                  <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                  <prop v="0,0,255,255" k="color1"/>
+                  <prop v="0,255,0,255" k="color2"/>
+                  <prop v="0" k="color_type"/>
+                  <prop v="0" k="discrete"/>
+                  <prop v="2" k="draw_mode"/>
+                  <prop v="0" k="enabled"/>
+                  <prop v="0.5" k="opacity"/>
+                  <prop v="gradient" k="rampType"/>
+                  <prop v="255,255,255,255" k="single_color"/>
+                  <prop v="2" k="spread"/>
+                  <prop v="MM" k="spread_unit"/>
+                  <prop v="3x:0,0,0,0,0,0" k="spread_unit_scale"/>
+                </effect>
+              </effect>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory spacing="5" minimumSize="0" height="15" width="15" penAlpha="255" enabled="0" opacity="1" sizeScale="3x:0,0,0,0,0,0" backgroundColor="#ffffff" barWidth="5" scaleBasedVisibility="0" lineSizeType="MM" minScaleDenominator="0" lineSizeScale="3x:0,0,0,0,0,0" spacingUnitScale="3x:0,0,0,0,0,0" sizeType="MM" labelPlacementMethod="XHeight" penWidth="0" scaleDependency="Area" rotationOffset="270" showAxis="1" direction="0" backgroundAlpha="255" maxScaleDenominator="1e+08" diagramOrientation="Up" spacingUnit="MM" penColor="#000000">
+          <fontProperties style="" description="Cantarell,10,-1,5,50,0,0,0,0,0"/>
+          <axisSymbol>
+            <symbol type="line" alpha="1" force_rhr="0" name="" clip_to_extent="1">
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+              <layer pass="0" class="SimpleLine" locked="0" enabled="1">
+                <Option type="Map">
+                  <Option type="QString" value="0" name="align_dash_pattern"/>
+                  <Option type="QString" value="square" name="capstyle"/>
+                  <Option type="QString" value="5;2" name="customdash"/>
+                  <Option type="QString" value="3x:0,0,0,0,0,0" name="customdash_map_unit_scale"/>
+                  <Option type="QString" value="MM" name="customdash_unit"/>
+                  <Option type="QString" value="0" name="dash_pattern_offset"/>
+                  <Option type="QString" value="3x:0,0,0,0,0,0" name="dash_pattern_offset_map_unit_scale"/>
+                  <Option type="QString" value="MM" name="dash_pattern_offset_unit"/>
+                  <Option type="QString" value="0" name="draw_inside_polygon"/>
+                  <Option type="QString" value="bevel" name="joinstyle"/>
+                  <Option type="QString" value="35,35,35,255" name="line_color"/>
+                  <Option type="QString" value="solid" name="line_style"/>
+                  <Option type="QString" value="0.26" name="line_width"/>
+                  <Option type="QString" value="MM" name="line_width_unit"/>
+                  <Option type="QString" value="0" name="offset"/>
+                  <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                  <Option type="QString" value="MM" name="offset_unit"/>
+                  <Option type="QString" value="0" name="ring_filter"/>
+                  <Option type="QString" value="0" name="trim_distance_end"/>
+                  <Option type="QString" value="3x:0,0,0,0,0,0" name="trim_distance_end_map_unit_scale"/>
+                  <Option type="QString" value="MM" name="trim_distance_end_unit"/>
+                  <Option type="QString" value="0" name="trim_distance_start"/>
+                  <Option type="QString" value="3x:0,0,0,0,0,0" name="trim_distance_start_map_unit_scale"/>
+                  <Option type="QString" value="MM" name="trim_distance_start_unit"/>
+                  <Option type="QString" value="0" name="tweak_dash_pattern_on_corners"/>
+                  <Option type="QString" value="0" name="use_custom_dash"/>
+                  <Option type="QString" value="3x:0,0,0,0,0,0" name="width_map_unit_scale"/>
+                </Option>
+                <prop v="0" k="align_dash_pattern"/>
+                <prop v="square" k="capstyle"/>
+                <prop v="5;2" k="customdash"/>
+                <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+                <prop v="MM" k="customdash_unit"/>
+                <prop v="0" k="dash_pattern_offset"/>
+                <prop v="3x:0,0,0,0,0,0" k="dash_pattern_offset_map_unit_scale"/>
+                <prop v="MM" k="dash_pattern_offset_unit"/>
+                <prop v="0" k="draw_inside_polygon"/>
+                <prop v="bevel" k="joinstyle"/>
+                <prop v="35,35,35,255" k="line_color"/>
+                <prop v="solid" k="line_style"/>
+                <prop v="0.26" k="line_width"/>
+                <prop v="MM" k="line_width_unit"/>
+                <prop v="0" k="offset"/>
+                <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                <prop v="MM" k="offset_unit"/>
+                <prop v="0" k="ring_filter"/>
+                <prop v="0" k="trim_distance_end"/>
+                <prop v="3x:0,0,0,0,0,0" k="trim_distance_end_map_unit_scale"/>
+                <prop v="MM" k="trim_distance_end_unit"/>
+                <prop v="0" k="trim_distance_start"/>
+                <prop v="3x:0,0,0,0,0,0" k="trim_distance_start_map_unit_scale"/>
+                <prop v="MM" k="trim_distance_start_unit"/>
+                <prop v="0" k="tweak_dash_pattern_on_corners"/>
+                <prop v="0" k="use_custom_dash"/>
+                <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+                <data_defined_properties>
+                  <Option type="Map">
+                    <Option type="QString" value="" name="name"/>
+                    <Option name="properties"/>
+                    <Option type="QString" value="collection" name="type"/>
+                  </Option>
+                </data_defined_properties>
+              </layer>
+            </symbol>
+          </axisSymbol>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings obstacle="0" linePlacementFlags="18" priority="0" showAll="1" zIndex="0" dist="0" placement="1">
+        <properties>
+          <Option type="Map">
+            <Option type="QString" value="" name="name"/>
+            <Option name="properties"/>
+            <Option type="QString" value="collection" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration type="Map">
+          <Option type="Map" name="QgsGeometryGapCheck">
+            <Option type="double" value="0" name="allowedGapsBuffer"/>
+            <Option type="bool" value="false" name="allowedGapsEnabled"/>
+            <Option type="QString" value="" name="allowedGapsLayer"/>
+          </Option>
+        </checkConfiguration>
+      </geometryOptions>
+      <legend type="default-vector"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field name="code" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="landsnaam" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="code" index="0" name=""/>
+        <alias field="landsnaam" index="1" name=""/>
+      </aliases>
+      <defaults>
+        <default field="code" applyOnUpdate="0" expression=""/>
+        <default field="landsnaam" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="code" unique_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" exp_strength="0" field="landsnaam" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" field="code" desc=""/>
+        <constraint exp="" field="landsnaam" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+        <columns>
+          <column hidden="0" type="field" name="code" width="-1"/>
+          <column hidden="0" type="field" name="landsnaam" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="code"/>
+        <field editable="1" name="landsnaam"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="code"/>
+        <field labelOnTop="0" name="landsnaam"/>
+      </labelOnTop>
+      <reuseLastValue>
+        <field reuseLastValue="0" name="code"/>
+        <field reuseLastValue="0" name="landsnaam"/>
+      </reuseLastValue>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression>"code"</previewExpression>
+      <mapTip></mapTip>
     </maplayer>
     <maplayer autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" maxScale="0" hasScaleBasedVisibilityFlag="0" minScale="1e+08" autoRefreshTime="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="">
       <extent>
@@ -553,7 +1054,7 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -654,7 +1155,7 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -1731,7 +2232,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -2930,7 +3431,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -3745,7 +4246,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -4298,7 +4799,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -6277,7 +6778,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -6830,7 +7331,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -7635,7 +8136,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -8332,7 +8833,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -9088,7 +9589,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -11033,7 +11534,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -13463,7 +13964,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -14824,7 +15325,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -16312,7 +16813,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -16914,7 +17415,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -17510,7 +18011,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -18887,7 +19388,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -20078,7 +20579,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -22519,7 +23020,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -24064,7 +24565,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -24784,6 +25285,15 @@ def my_form_open(dialog, layer, feature):
         <type>dataset</type>
         <title></title>
         <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
         <links/>
         <fees></fees>
         <encoding></encoding>
@@ -24797,10 +25307,18 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
-        <extent/>
+        <extent>
+          <spatial crs="" miny="0" maxx="0" minz="0" minx="0" maxy="0" dimensions="2" maxz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
       </resourceMetadata>
       <provider encoding="UTF-8">ogr</provider>
       <vectorjoins/>
@@ -24824,16 +25342,16 @@ def my_form_open(dialog, layer, feature):
         </fixedRange>
       </temporal>
       <renderer-v2 symbollevels="0" forceraster="0" type="RuleRenderer" enableorderby="0">
-        <rules key="{6495037b-ddbf-45de-8cc8-0cc55c126a25}">
-          <rule filter="visualisatiecode = 12600" scalemaxdenom="40000" symbol="0" key="{53842cbb-e838-4e80-8cd2-bd5730c62011}" label="droogvallend"/>
-          <rule filter="visualisatiecode = 12610" scalemaxdenom="40000" symbol="1" key="{189bc076-aa5a-4b4e-a4b7-6e2cdb98b98f}" label="droogvallend (LAT)"/>
-          <rule filter="visualisatiecode = 12500" scalemaxdenom="40000" symbol="2" key="{b4281ce3-5fbc-40a5-aca4-74ae2d358395}" label="meer, plas"/>
-          <rule filter="visualisatiecode = 12800" scalemaxdenom="40000" symbol="3" key="{473ceb19-cd85-4a5b-9374-79ab6217d72a}" label="waterdeel in sluis"/>
-          <rule filter="visualisatiecode = 12820" scalemaxdenom="40000" symbol="4" key="{ba1563fb-2e68-49bb-9cb8-dd662fcd61b8}" label="waterdeel in sluis en op brug"/>
-          <rule scalemaxdenom="40000" symbol="5" key="{e6e37a43-1813-4f5f-a954-f986bc60539f}" label="waterdeel met riet"/>
-          <rule filter="visualisatiecode = 12810" scalemaxdenom="40000" symbol="6" key="{e8a56d06-dc51-4511-9260-dd991fe44170}" label="waterdeel op brug (aquaduct)"/>
-          <rule scalemaxdenom="40000" symbol="7" key="{f231b847-13d1-4925-8427-afd9494f090b}" label="waterloop"/>
-          <rule filter="visualisatiecode = 12700" scalemaxdenom="40000" symbol="8" key="{56fe899c-257b-413a-8c67-62c053b03140}" label="zee"/>
+        <rules key="{f9e91266-07f5-4bd3-af66-3303c61d2602}">
+          <rule filter="visualisatiecode = 12600" scalemaxdenom="40000" symbol="0" key="{bb85b3f2-9711-43a4-a83c-1605d4abd8d0}" label="droogvallend"/>
+          <rule filter="visualisatiecode = 12610" scalemaxdenom="40000" symbol="1" key="{7f1cfd17-a0f0-43b0-a638-3dd70b8e3e3e}" label="droogvallend (LAT)"/>
+          <rule filter="visualisatiecode = 12500" scalemaxdenom="40000" symbol="2" key="{cddcbb0e-752d-4d3a-a9a6-5b572db524fd}" label="meer, plas"/>
+          <rule filter="visualisatiecode = 12800" scalemaxdenom="40000" symbol="3" key="{af96c82b-17dc-46fe-b64b-8c89951a1e6e}" label="waterdeel in sluis"/>
+          <rule filter="visualisatiecode = 12820" scalemaxdenom="40000" symbol="4" key="{9b7e04a3-87a4-4932-8fdd-802751191049}" label="waterdeel in sluis en op brug"/>
+          <rule filter="visualisatiecode = 12405 OR visualisatiecode = 12415 OR visualisatiecode = 12425 OR visualisatiecode = 12435 OR visualisatiecode = 12505 OR visualisatiecode = 12605" scalemaxdenom="40000" symbol="5" key="{dedb0f41-d026-42dc-ab4b-b78f2786adbd}" label="waterdeel met riet"/>
+          <rule filter="visualisatiecode = 12810" scalemaxdenom="40000" symbol="6" key="{16ee37d1-f0a9-42d1-ba1f-0a93e2393595}" label="waterdeel op brug (aquaduct)"/>
+          <rule filter="visualisatiecode = 12400 OR visualisatiecode = 12410 OR visualisatiecode = 12420 OR visualisatiecode = 12430" scalemaxdenom="40000" symbol="7" key="{e8dbb37f-843f-43df-a1f2-3d97a98134ba}" label="waterloop"/>
+          <rule filter="visualisatiecode = 12700" scalemaxdenom="40000" symbol="8" key="{f48ae8bd-6953-4c6c-9c50-77f5fcab736a}" label="zee"/>
         </rules>
         <symbols>
           <symbol type="fill" alpha="1" force_rhr="0" name="0" clip_to_extent="1">
@@ -24877,31 +25395,49 @@ def my_form_open(dialog, layer, feature):
                 </Option>
               </data_defined_properties>
             </layer>
-            <layer pass="0" class="SimpleFill" locked="0" enabled="1">
+            <layer pass="0" class="PointPatternFill" locked="0" enabled="1">
               <Option type="Map">
-                <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
-                <Option type="QString" value="128,128,128,255" name="color"/>
-                <Option type="QString" value="bevel" name="joinstyle"/>
-                <Option type="QString" value="0,0" name="offset"/>
-                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
-                <Option type="QString" value="Pixel" name="offset_unit"/>
-                <Option type="QString" value="0,0,0,255" name="outline_color"/>
-                <Option type="QString" value="no" name="outline_style"/>
-                <Option type="QString" value="1" name="outline_width"/>
+                <Option type="QString" value="0" name="displacement_x"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="displacement_x_map_unit_scale"/>
+                <Option type="QString" value="Pixel" name="displacement_x_unit"/>
+                <Option type="QString" value="0" name="displacement_y"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="displacement_y_map_unit_scale"/>
+                <Option type="QString" value="MM" name="displacement_y_unit"/>
+                <Option type="QString" value="4" name="distance_x"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="distance_x_map_unit_scale"/>
+                <Option type="QString" value="Pixel" name="distance_x_unit"/>
+                <Option type="QString" value="4" name="distance_y"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="distance_y_map_unit_scale"/>
+                <Option type="QString" value="Pixel" name="distance_y_unit"/>
+                <Option type="QString" value="0" name="offset_x"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_x_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_x_unit"/>
+                <Option type="QString" value="0" name="offset_y"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_y_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_y_unit"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale"/>
                 <Option type="QString" value="Pixel" name="outline_width_unit"/>
-                <Option type="QString" value="no" name="style"/>
               </Option>
-              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-              <prop v="128,128,128,255" k="color"/>
-              <prop v="bevel" k="joinstyle"/>
-              <prop v="0,0" k="offset"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="Pixel" k="offset_unit"/>
-              <prop v="0,0,0,255" k="outline_color"/>
-              <prop v="no" k="outline_style"/>
-              <prop v="1" k="outline_width"/>
+              <prop v="0" k="displacement_x"/>
+              <prop v="3x:0,0,0,0,0,0" k="displacement_x_map_unit_scale"/>
+              <prop v="Pixel" k="displacement_x_unit"/>
+              <prop v="0" k="displacement_y"/>
+              <prop v="3x:0,0,0,0,0,0" k="displacement_y_map_unit_scale"/>
+              <prop v="MM" k="displacement_y_unit"/>
+              <prop v="4" k="distance_x"/>
+              <prop v="3x:0,0,0,0,0,0" k="distance_x_map_unit_scale"/>
+              <prop v="Pixel" k="distance_x_unit"/>
+              <prop v="4" k="distance_y"/>
+              <prop v="3x:0,0,0,0,0,0" k="distance_y_map_unit_scale"/>
+              <prop v="Pixel" k="distance_y_unit"/>
+              <prop v="0" k="offset_x"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_x_map_unit_scale"/>
+              <prop v="MM" k="offset_x_unit"/>
+              <prop v="0" k="offset_y"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_y_map_unit_scale"/>
+              <prop v="MM" k="offset_y_unit"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
               <prop v="Pixel" k="outline_width_unit"/>
-              <prop v="no" k="style"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option type="QString" value="" name="name"/>
@@ -24909,6 +25445,62 @@ def my_form_open(dialog, layer, feature):
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
+              <symbol type="marker" alpha="1" force_rhr="0" name="@0@1" clip_to_extent="1">
+                <data_defined_properties>
+                  <Option type="Map">
+                    <Option type="QString" value="" name="name"/>
+                    <Option name="properties"/>
+                    <Option type="QString" value="collection" name="type"/>
+                  </Option>
+                </data_defined_properties>
+                <layer pass="0" class="FontMarker" locked="0" enabled="1">
+                  <Option type="Map">
+                    <Option type="QString" value="0" name="angle"/>
+                    <Option type="QString" value="o" name="chr"/>
+                    <Option type="QString" value="168,112,0,255" name="color"/>
+                    <Option type="QString" value="Liberation Sans" name="font"/>
+                    <Option type="QString" value="Bold" name="font_style"/>
+                    <Option type="QString" value="1" name="horizontal_anchor_point"/>
+                    <Option type="QString" value="bevel" name="joinstyle"/>
+                    <Option type="QString" value="0,0" name="offset"/>
+                    <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                    <Option type="QString" value="MM" name="offset_unit"/>
+                    <Option type="QString" value="35,35,35,255" name="outline_color"/>
+                    <Option type="QString" value="0" name="outline_width"/>
+                    <Option type="QString" value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale"/>
+                    <Option type="QString" value="MM" name="outline_width_unit"/>
+                    <Option type="QString" value="6" name="size"/>
+                    <Option type="QString" value="3x:0,0,0,0,0,0" name="size_map_unit_scale"/>
+                    <Option type="QString" value="Pixel" name="size_unit"/>
+                    <Option type="QString" value="1" name="vertical_anchor_point"/>
+                  </Option>
+                  <prop v="0" k="angle"/>
+                  <prop v="o" k="chr"/>
+                  <prop v="168,112,0,255" k="color"/>
+                  <prop v="Liberation Sans" k="font"/>
+                  <prop v="Bold" k="font_style"/>
+                  <prop v="1" k="horizontal_anchor_point"/>
+                  <prop v="bevel" k="joinstyle"/>
+                  <prop v="0,0" k="offset"/>
+                  <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                  <prop v="MM" k="offset_unit"/>
+                  <prop v="35,35,35,255" k="outline_color"/>
+                  <prop v="0" k="outline_width"/>
+                  <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+                  <prop v="MM" k="outline_width_unit"/>
+                  <prop v="6" k="size"/>
+                  <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+                  <prop v="Pixel" k="size_unit"/>
+                  <prop v="1" k="vertical_anchor_point"/>
+                  <data_defined_properties>
+                    <Option type="Map">
+                      <Option type="QString" value="" name="name"/>
+                      <Option name="properties"/>
+                      <Option type="QString" value="collection" name="type"/>
+                    </Option>
+                  </data_defined_properties>
+                </layer>
+              </symbol>
             </layer>
           </symbol>
           <symbol type="fill" alpha="1" force_rhr="0" name="1" clip_to_extent="1">
@@ -25120,31 +25712,49 @@ def my_form_open(dialog, layer, feature):
                 </Option>
               </data_defined_properties>
             </layer>
-            <layer pass="0" class="SimpleFill" locked="0" enabled="1">
+            <layer pass="0" class="PointPatternFill" locked="0" enabled="1">
               <Option type="Map">
-                <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
-                <Option type="QString" value="128,128,128,255" name="color"/>
-                <Option type="QString" value="bevel" name="joinstyle"/>
-                <Option type="QString" value="0,0" name="offset"/>
-                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
-                <Option type="QString" value="Pixel" name="offset_unit"/>
-                <Option type="QString" value="0,0,0,255" name="outline_color"/>
-                <Option type="QString" value="no" name="outline_style"/>
-                <Option type="QString" value="1" name="outline_width"/>
+                <Option type="QString" value="7" name="displacement_x"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="displacement_x_map_unit_scale"/>
+                <Option type="QString" value="Pixel" name="displacement_x_unit"/>
+                <Option type="QString" value="0" name="displacement_y"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="displacement_y_map_unit_scale"/>
+                <Option type="QString" value="MM" name="displacement_y_unit"/>
+                <Option type="QString" value="15" name="distance_x"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="distance_x_map_unit_scale"/>
+                <Option type="QString" value="Pixel" name="distance_x_unit"/>
+                <Option type="QString" value="15" name="distance_y"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="distance_y_map_unit_scale"/>
+                <Option type="QString" value="Pixel" name="distance_y_unit"/>
+                <Option type="QString" value="0" name="offset_x"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_x_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_x_unit"/>
+                <Option type="QString" value="0" name="offset_y"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_y_map_unit_scale"/>
+                <Option type="QString" value="MM" name="offset_y_unit"/>
+                <Option type="QString" value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale"/>
                 <Option type="QString" value="Pixel" name="outline_width_unit"/>
-                <Option type="QString" value="no" name="style"/>
               </Option>
-              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-              <prop v="128,128,128,255" k="color"/>
-              <prop v="bevel" k="joinstyle"/>
-              <prop v="0,0" k="offset"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="Pixel" k="offset_unit"/>
-              <prop v="0,0,0,255" k="outline_color"/>
-              <prop v="no" k="outline_style"/>
-              <prop v="1" k="outline_width"/>
+              <prop v="7" k="displacement_x"/>
+              <prop v="3x:0,0,0,0,0,0" k="displacement_x_map_unit_scale"/>
+              <prop v="Pixel" k="displacement_x_unit"/>
+              <prop v="0" k="displacement_y"/>
+              <prop v="3x:0,0,0,0,0,0" k="displacement_y_map_unit_scale"/>
+              <prop v="MM" k="displacement_y_unit"/>
+              <prop v="15" k="distance_x"/>
+              <prop v="3x:0,0,0,0,0,0" k="distance_x_map_unit_scale"/>
+              <prop v="Pixel" k="distance_x_unit"/>
+              <prop v="15" k="distance_y"/>
+              <prop v="3x:0,0,0,0,0,0" k="distance_y_map_unit_scale"/>
+              <prop v="Pixel" k="distance_y_unit"/>
+              <prop v="0" k="offset_x"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_x_map_unit_scale"/>
+              <prop v="MM" k="offset_x_unit"/>
+              <prop v="0" k="offset_y"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_y_map_unit_scale"/>
+              <prop v="MM" k="offset_y_unit"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
               <prop v="Pixel" k="outline_width_unit"/>
-              <prop v="no" k="style"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option type="QString" value="" name="name"/>
@@ -25152,6 +25762,62 @@ def my_form_open(dialog, layer, feature):
                   <Option type="QString" value="collection" name="type"/>
                 </Option>
               </data_defined_properties>
+              <symbol type="marker" alpha="1" force_rhr="0" name="@5@1" clip_to_extent="1">
+                <data_defined_properties>
+                  <Option type="Map">
+                    <Option type="QString" value="" name="name"/>
+                    <Option name="properties"/>
+                    <Option type="QString" value="collection" name="type"/>
+                  </Option>
+                </data_defined_properties>
+                <layer pass="0" class="FontMarker" locked="0" enabled="1">
+                  <Option type="Map">
+                    <Option type="QString" value="0" name="angle"/>
+                    <Option type="QString" value="D" name="chr"/>
+                    <Option type="QString" value="0,169,230,255" name="color"/>
+                    <Option type="QString" value="ESRI ArcGIS TDN" name="font"/>
+                    <Option type="QString" value="Regular" name="font_style"/>
+                    <Option type="QString" value="1" name="horizontal_anchor_point"/>
+                    <Option type="QString" value="bevel" name="joinstyle"/>
+                    <Option type="QString" value="0,0" name="offset"/>
+                    <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+                    <Option type="QString" value="MM" name="offset_unit"/>
+                    <Option type="QString" value="35,35,35,255" name="outline_color"/>
+                    <Option type="QString" value="0" name="outline_width"/>
+                    <Option type="QString" value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale"/>
+                    <Option type="QString" value="MM" name="outline_width_unit"/>
+                    <Option type="QString" value="20" name="size"/>
+                    <Option type="QString" value="3x:0,0,0,0,0,0" name="size_map_unit_scale"/>
+                    <Option type="QString" value="Pixel" name="size_unit"/>
+                    <Option type="QString" value="1" name="vertical_anchor_point"/>
+                  </Option>
+                  <prop v="0" k="angle"/>
+                  <prop v="D" k="chr"/>
+                  <prop v="0,169,230,255" k="color"/>
+                  <prop v="ESRI ArcGIS TDN" k="font"/>
+                  <prop v="Regular" k="font_style"/>
+                  <prop v="1" k="horizontal_anchor_point"/>
+                  <prop v="bevel" k="joinstyle"/>
+                  <prop v="0,0" k="offset"/>
+                  <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                  <prop v="MM" k="offset_unit"/>
+                  <prop v="35,35,35,255" k="outline_color"/>
+                  <prop v="0" k="outline_width"/>
+                  <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+                  <prop v="MM" k="outline_width_unit"/>
+                  <prop v="20" k="size"/>
+                  <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+                  <prop v="Pixel" k="size_unit"/>
+                  <prop v="1" k="vertical_anchor_point"/>
+                  <data_defined_properties>
+                    <Option type="Map">
+                      <Option type="QString" value="" name="name"/>
+                      <Option name="properties"/>
+                      <Option type="QString" value="collection" name="type"/>
+                    </Option>
+                  </data_defined_properties>
+                </layer>
+              </symbol>
             </layer>
           </symbol>
           <symbol type="fill" alpha="1" force_rhr="0" name="6" clip_to_extent="1">
@@ -25908,7 +26574,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -27770,7 +28436,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -29446,7 +30112,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -30517,7 +31183,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -31833,7 +32499,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -31954,7 +32620,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -32045,6 +32711,7 @@ def my_form_open(dialog, layer, feature):
     <layer id="top10nl_functioneel_gebied_vlak_1d773ed0_8710_433a_8cc6_9e342fae3035"/>
     <layer id="top10nl_terrein_vlak_34e3f1fa_8c68_49b5_871b_7413cc59fc51"/>
     <layer id="top10nlv2_0e2ecfc6_689b_4cd4_809e_1ec6e266a553"/>
+    <layer id="landsgrens_6e676f1f_987c_410d_9658_bfc0d3788ac7"/>
   </layerorder>
   <properties>
     <CopyrightLabel>
@@ -32181,7 +32848,7 @@ def my_form_open(dialog, layer, feature):
   <Bookmarks/>
   <ProjectViewSettings UseProjectScales="0">
     <Scales/>
-    <DefaultViewExtent xmin="113206.47186016554769594" xmax="115246.40936224629695062" ymax="485776.51285897969501093" ymin="483641.32535680179717019">
+    <DefaultViewExtent xmin="98982.9073939441004768" xmax="99677.57576496514957398" ymax="498818.946629524580203" ymin="497894.51021300489082932">
       <spatialrefsys>
         <wkt>PROJCRS["Amersfoort / RD New",BASEGEOGCRS["Amersfoort",DATUM["Amersfoort",ELLIPSOID["Bessel 1841",6377397.155,299.1528128,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4289]],CONVERSION["RD New",METHOD["Oblique Stereographic",ID["EPSG",9809]],PARAMETER["Latitude of natural origin",52.1561605555556,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",5.38763888888889,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9999079,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",155000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",463000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["Netherlands - onshore, including Waddenzee, Dutch Wadden Islands and 12-mile offshore coastal zone."],BBOX[50.75,3.2,53.7,7.22]],ID["EPSG",28992]]</wkt>
         <proj4>+proj=sterea +lat_0=52.1561605555556 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +no_defs</proj4>

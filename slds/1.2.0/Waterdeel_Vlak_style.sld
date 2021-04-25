@@ -120,7 +120,7 @@
 				<Rule>
 					<Name>waterdeel met riet</Name>
 					<Title>waterdeel met riet</Title>
-					<ogc:Filter>
+					<!--<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
 								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
@@ -133,7 +133,36 @@
 							</ogc:Function>
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
+					                    </ogc:Filter>-->
+                    <!-- QGIS fix -->
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:Or>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>12405</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>12415</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>12425</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>12435</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>12505</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>12605</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>                          
+                        </ogc:Or>
+                    </ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
@@ -181,7 +210,7 @@
 				<Rule>
 					<Name>waterloop</Name>
 					<Title>waterloop</Title>
-					<ogc:Filter>
+					<!--<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:Function name="in">
 								<ogc:PropertyName>visualisatiecode</ogc:PropertyName>
@@ -192,7 +221,28 @@
 							</ogc:Function>
 							<ogc:Literal>true</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
+					                    </ogc:Filter>-->
+                    <!-- QGIS fix -->
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:Or>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>12400</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>12410</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>12420</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>
+                          <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>visualisatiecode</ogc:PropertyName>
+                            <ogc:Literal>12430</ogc:Literal>
+                          </ogc:PropertyIsEqualTo>                          
+                        </ogc:Or>
+                    </ogc:Filter>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
