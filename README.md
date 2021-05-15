@@ -38,10 +38,21 @@ Om het QGIS projec te laden:
  - MIS je dingen? Laat het me weten (via de issue tracker van deze repo): 1 issue per keer, MET een afbeelding en evt omschrijving
  - wil je zelf zaken fixen: zelfde idee: 1 ding per keer (per pull request) zodat ik het kan checken WAT je precies hebt aangepast, maak vooral veel screendumpjes en laat die ook zien in de issue!
  - ik heb het project bewust opgeslagen als een .qgs bestand, dat is xml en ik kan dan dus een diff doen van evt aanpassingen
+
+Ik heb ook nog even gekeken naar het laden van de geopackages in Postgis (te laden via sleur-pleur in QGIS-browser): de styling kun je dan ook gewoon copy-pasten (omdat laagnaam en kolomnamen hetzelfde blijven).
+Maar dat laat ik even aan de gebruiker zelf.
  
  # Contact
  
  Ik zou het leuk vinden als dit klusje voor anderen handig is, evt opmerkingen of vragen: via de issue tracker OF via richard@duif.net
+ 
+ ![Screenshot-20210425213230-1930x1035](https://user-images.githubusercontent.com/731673/116007368-cb45c680-a60f-11eb-9a0e-77e7afebed36.png)
+ 
+ In zwartwit (in QGIS: menu View/Preview Mode/Simulate Achromatopsia Color BLindness (gray scale)) eigenlijk ook best mooi:
+ 
+ ![Screenshot-20210426093621-1371x646](https://user-images.githubusercontent.com/731673/116046312-3ffe1c80-a673-11eb-8049-4cd7873fd783.png)
+
+
  
  
  
